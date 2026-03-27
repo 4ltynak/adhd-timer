@@ -1,16 +1,17 @@
 
 import './App.css'
 import Header from './components/Layout/Header';
-//import ClockArea from './components/Clock/ClockArea';
+import ClockArea from './components/Clock/ClockArea';
 import FAQ from './components/Layout/FAQ';
-
+import ToDoSection from './components/ToDo/ToDoSection';
 function App() {
   return (
     <div className="max-w-3xl mx-auto">
     <Header />
     <div>
-      <h1>Main Section</h1>
+      <ClockArea />
     </div>
+    <ToDoSection />
       <FAQ />
     </div>
   );

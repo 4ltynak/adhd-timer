@@ -10,7 +10,7 @@ export default function FAQ() {
     return (
         <div className="w-full px-6 mx-auto">
             <div className="w-full mx-auto">
-            <h4 className="scroll-m-20 text-xl font-semibold text-center">FAQ Section</h4>
+            <h4 className="scroll-m-20 text-xl font-semibold text-center py-4">FAQ Section</h4>
             <Accordion defaultValue={["faq"]} className="max-w-lg mx-auto">
                 <AccordionItem value="faq">
                     <AccordionTrigger>What is a visual timer?</AccordionTrigger>
